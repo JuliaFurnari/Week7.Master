@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Week7.Master.Core.Entities;
+
+namespace Week7.Master.Core.InterfaceRepositories
+{
+    public interface IRepositoryDocenti: IRepository<Docente>
+    {
+        public Docente GetById(int id);
+        //public Docente GetByEmail(string email);
+    }
+}
